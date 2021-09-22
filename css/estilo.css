@@ -1,0 +1,604 @@
+/* Estilizações Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+[title] {
+    cursor: pointer;
+}
+
+/* Criação Do Container */
+
+.container {
+    height: inherit;
+    width: 1300px;
+    margin: auto;
+}
+
+/* Estilizações Do Cabeçalho */
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    transition: 1s;
+}
+
+.headerGradientt {
+    background-color: #2861f1;
+}
+
+#titleMain {
+    height: inherit;
+    width: 500px;
+    float: left;
+    font-size: 0.7em;
+    color: #fff;
+    padding-top: 32px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+/* Estilizações Do Menu */
+
+#menu {
+    height: 100px;
+    width: 800px;
+    float: left;
+}
+
+#menu ul {
+    height: inherit;
+    width: inherit;
+    float: left;
+}
+
+#menu ul li {
+    height: 100px;
+    width: 85px;
+    margin-left: 75px;
+    padding-top: 36px;
+    font-size: 1.2em;
+    list-style: none;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+
+#menu ul li a {
+    color: rgb(233, 229, 229);
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Estilizações Do Banner */
+
+#bannerMain {
+    height: 800px;
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 290px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+
+#boxBanner {
+    height: 250px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 70%);
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#boxBanner h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 2.1em;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#boxBanner p {
+    color: white;
+    font-weight: 900;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 18px;
+    text-shadow: black 1px 1px 1px;
+}
+
+#button {
+    height: 45px;
+    width: 160px;
+    border-radius: 3px;
+    background-color: #2861f1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#button a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#button:hover {
+    background-color: #0b36a5;
+}
+
+/* Estilizações De Serviços */
+
+#service {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+#cardA {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+}
+
+#cardB {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+}
+
+#cardC {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.cardLogo img {
+    height: 80px;
+    width: 80px;
+    margin-left: 160px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cardTitle h2 {
+    height: 30px;
+    width: 160px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.cardText p {
+    min-height: 10px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #69707a;
+}
+
+/* Estilizações De Sobre Nós */
+
+#about {
+    width: 100%;
+    height: 670px;
+    background-color: rgb(243, 239, 239);
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+#aboutInfo {
+    height: 480px;
+    background-color: #fff;
+    margin: auto;
+}
+
+#aboutInfo:hover {
+    cursor: pointer;
+}
+
+#infoImg img {
+    height: 480px;
+    width: 750px;
+    float: left;
+}
+
+#infoTitleText h2 {
+    height: 70px;
+    width: 450px;
+    float: left;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #363d47;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+#infoTitleText p {
+    float: left;
+    height: 210px;
+    width: 530px;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: left;
+    color: #363d47;
+    padding-left: 20px;
+}
+
+/* Estilizações Da Barra Azul */
+
+#blueStrip {
+    height: 350px;
+    width: 100%;
+    background-color: #2861f1;
+}
+
+#blueStrip h2,
+h3 {
+    width: 100%;
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 133px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 1.15em;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+}
+
+/* Estilizações De Clientes */
+
+#customers {
+    height: 1460px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.cliente {
+    height: 400px;
+    width: 1300px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.ClienteImg {
+    height: inherit;
+    width: 650px;
+    float: left;
+}
+
+.clienteTitle {
+    height: inherit;
+    width: 650px;
+    float: left;
+    background-color: rgb(233, 229, 229);
+}
+
+.clienteTitle h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #363d47;
+    padding-top: 150px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.clienteSub {
+    font-weight: 300;
+    color: #69707a;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#parceiros {
+    height: 200px;
+    clear: both;
+}
+
+#parceiros h2 {
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #aaadb1;
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+#imgParceiros1 {
+    margin-right: 102px;
+}
+
+#imgParceiros2 {
+    margin-right: 102px;
+}
+
+#imgParceiros3 {
+    margin-right: 102px;
+}
+
+#imgParceiros4 {
+    margin-right: 102px;
+}
+
+#imgParceiros5 {
+    margin-right: 102px;
+}
+
+/* Estilizações Da Segunda Barra Azul */
+
+#blueStripTwo {
+    height: 350px;
+    width: 100%;
+    background-color: #2861f1;
+}
+
+#blueStripTwo h2 {
+    width: 100%;
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 133px;
+    box-sizing: border-box;
+}
+
+/* Estilizações De Contatos */
+
+#contacts {
+    width: 100%;
+    height: 610px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+
+#boxContacts1 {
+    height: 310px;
+    width: 400px;
+    border-radius: 3%;
+    float: left;
+    margin-right: 50px;
+    background-color: rgb(233, 229, 229);
+    border-top: 7px solid #2861f1;
+    box-sizing: border-box;
+}
+
+#boxContacts2 {
+    height: 310px;
+    width: 400px;
+    border-radius: 3%;
+    float: left;
+    margin-right: 50px;
+    background-color: rgb(233, 229, 229);
+    border-top: 7px solid #2861f1;
+    box-sizing: border-box;
+}
+
+#boxContacts3 {
+    height: 310px;
+    width: 400px;
+    border-radius: 3%;
+    float: left;
+    background-color: rgb(233, 229, 229);
+    border-top: 7px solid #2861f1;
+    box-sizing: border-box;
+}
+
+.imgContacts img {
+    height: 80px;
+    width: 80px;
+    margin-left: 160px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.titleContacts h2 {
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #363d47;
+    margin-bottom: 10px;
+}
+
+.textContacts {
+    text-align: center;
+    min-height: 10px;
+    height: auto;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.linkContacts a {
+    color: #0061f2;
+    font-weight: 600;
+    font-size: 1.2em;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 110px;
+}
+
+.linkContacts a:hover {
+    text-decoration: underline;
+}
+
+#contactsQuestion {
+    height: 200px;
+    clear: both;
+}
+
+#contactsQuestion h2 {
+    font-size: 1.6em;
+    font-weight: 500;
+    text-align: center;
+    color: #363d47;
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+
+#contactsQuestion h5 {
+    font-size: 1.4em;
+    font-weight: 400;
+    text-align: center;
+    color: #363d47;
+    margin-bottom: 35px;
+}
+
+.itensContacts {
+    float: left;
+    text-align: center;
+    padding-left: 310px;
+    font-size: 1.2em;
+    color: #69707a;
+    font-weight: 400;
+}
+
+.itensContacts a {
+    color: #0061f2;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.itensContacts a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizações Do Rodapé */
+
+footer {
+    height: 450px;
+    width: 100%;
+    background-color: #212832;
+}
+
+#footerBox {
+    height: 340px;
+    width: 1300px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerTitle {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+}
+
+.footerList li {
+    width: 50%;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.footerList li:hover {
+    text-decoration: underline;
+}
+
+#footerColumnA {
+    height: inherit;
+    width: 270px;
+    float: left;
+    margin-right: 35px;
+}
+
+#footerTitleMain {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 10px;
+}
+
+#footerColumnA h6 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875em;
+    padding-bottom: 10px;
+}
+
+#footerColumnA a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+#footerColumnA a:hover {
+    text-decoration: underline;
+}
+
+#footerColumnB {
+    height: inherit;
+    width: 230px;
+    float: left;
+}
+
+#footerColumnC {
+    height: inherit;
+    width: 230px;
+    float: left;
+}
+
+#footerColumnD {
+    height: inherit;
+    width: 230px;
+    float: left;
+}
+
+#footerCopyright {
+    height: 109px;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 45px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
